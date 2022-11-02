@@ -5,11 +5,17 @@
   "pages": {
     "/": {
       "name": "Home"
+    },
+    "/Shop": {
+      "name": "Shop"
+    },
+    "/Product": {
+      "name": "Product"
     }
   },
   "publicUrlAssetMap": {
     "/app-assets": "..\\assets"
   },
   "organizationName": "<Atri Labs>",
-  "projectName": "<Atri-Editor-clones/reign-clone>"
+  "projectName": "</reign-clone>"
 }

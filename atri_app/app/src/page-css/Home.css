@@ -596,12 +596,6 @@ font-weight: 500;
 font-size: 1rem;
 color: #222222;
 }
-.p-Home.Shop {
-font-family: Inter;
-font-weight: 500;
-font-size: 1rem;
-color: #222222;
-}
 .p-Home.Pages {
 font-family: Inter;
 font-weight: 500;
@@ -615,6 +609,12 @@ font-weight: 500;
 font-size: 1rem;
 outline-style: hidden;
 border-style: none;
+}
+.p-Home.TextBox214 {
+font-family: Inter;
+font-weight: 500;
+font-size: 1rem;
+color: #222222;
 }
 .p-Home.Image2 {
 width: 1.2rem;

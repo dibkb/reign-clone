@@ -69,23 +69,10 @@ export function useHomeCb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useShopCb() {
-	const onClick = useCallback(callbackFactory("Shop", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
     }
   ],
   "actions": [
@@ -2642,6 +2629,25 @@ export function useImage47Cb() {
   "handlers": [
     {
       "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox214Cb() {
+	const onClick = useCallback(callbackFactory("TextBox214", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Shop"
+      }
     }
   ],
   "actions": [

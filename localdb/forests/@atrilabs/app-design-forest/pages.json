@@ -2,5 +2,13 @@
   "home": {
     "name": "Home",
     "route": "/"
+  },
+  "f153e85a-27c7-4373-a700-92306e21b5bb": {
+    "name": "Shop",
+    "route": "/Shop"
+  },
+  "b34b5da7-88c4-4b05-a3cd-b8a651d52323": {
+    "name": "Product",
+    "route": "/Product"
   }
 }

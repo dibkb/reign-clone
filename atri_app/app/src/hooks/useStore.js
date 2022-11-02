@@ -288,19 +288,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Shop": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -347,6 +338,21 @@ const desktopModeProps = {
         "onChange": [
           {
             "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox214": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/Shop"
+            }
           }
         ]
       }
@@ -1612,6 +1618,1128 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/gpay-logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    }
+  },
+  "Shop": {
+    "headline": {
+      "callbacks": {}
+    },
+    "footer": {
+      "callbacks": {}
+    },
+    "Flex141": {
+      "callbacks": {}
+    },
+    "Flex139": {
+      "callbacks": {}
+    },
+    "Flex136": {
+      "callbacks": {}
+    },
+    "Flex137": {
+      "callbacks": {}
+    },
+    "Flex140": {
+      "callbacks": {}
+    },
+    "Flex138": {
+      "callbacks": {}
+    },
+    "Flex132": {
+      "callbacks": {}
+    },
+    "Flex128": {
+      "callbacks": {}
+    },
+    "Flex133": {
+      "callbacks": {}
+    },
+    "Flex129": {
+      "callbacks": {}
+    },
+    "Flex134": {
+      "callbacks": {}
+    },
+    "Flex130": {
+      "callbacks": {}
+    },
+    "Flex135": {
+      "callbacks": {}
+    },
+    "Flex131": {
+      "callbacks": {}
+    },
+    "banner": {
+      "callbacks": {}
+    },
+    "Flex145": {
+      "callbacks": {}
+    },
+    "Flex144": {
+      "callbacks": {}
+    },
+    "Flex143": {
+      "callbacks": {}
+    },
+    "shopsection": {
+      "callbacks": {}
+    },
+    "Flex154": {
+      "callbacks": {}
+    },
+    "Flex153": {
+      "callbacks": {}
+    },
+    "Flex150": {
+      "callbacks": {}
+    },
+    "Flex147": {
+      "callbacks": {}
+    },
+    "Flex151": {
+      "callbacks": {}
+    },
+    "Flex148": {
+      "callbacks": {}
+    },
+    "Flex152": {
+      "callbacks": {}
+    },
+    "Flex149": {
+      "callbacks": {}
+    },
+    "Flex163": {
+      "callbacks": {}
+    },
+    "Flex162": {
+      "callbacks": {}
+    },
+    "Flex169": {
+      "callbacks": {}
+    },
+    "Flex168": {
+      "callbacks": {}
+    },
+    "Flex171": {
+      "callbacks": {}
+    },
+    "Flex170": {
+      "callbacks": {}
+    },
+    "navbar": {
+      "callbacks": {}
+    },
+    "Flex190": {
+      "callbacks": {}
+    },
+    "Flex188": {
+      "callbacks": {}
+    },
+    "Flex187": {
+      "callbacks": {}
+    },
+    "Flex189": {
+      "callbacks": {}
+    },
+    "TextBox149": {
+      "custom": {
+        "text": "USE THIS BAR FOR ANNOUNCEMENTS, DEALS & DISCOUNTS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image51": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/gpay-logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image52": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/apple-pay-logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image53": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/paypay-logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox174": {
+      "custom": {
+        "text": "Atri Labs"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox175": {
+      "custom": {
+        "text": "© 2020 Reign. All rights reserved. Powered by"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image54": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/logo-white.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox170": {
+      "custom": {
+        "text": "Connect"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox153": {
+      "custom": {
+        "text": "hey@contact.com"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox154": {
+      "custom": {
+        "text": "+123456789"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox155": {
+      "custom": {
+        "text": "Contact Us"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox171": {
+      "custom": {
+        "text": "Social"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox156": {
+      "custom": {
+        "text": "Twitter"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox157": {
+      "custom": {
+        "text": "Facebook"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox158": {
+      "custom": {
+        "text": "Instagram"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox159": {
+      "custom": {
+        "text": "LinkedIn"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox172": {
+      "custom": {
+        "text": "Misc"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox160": {
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox161": {
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox162": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox163": {
+      "custom": {
+        "text": "Blog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox164": {
+      "custom": {
+        "text": "Legal"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox173": {
+      "custom": {
+        "text": "Pages"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox165": {
+      "custom": {
+        "text": "Legal"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox166": {
+      "custom": {
+        "text": "Blog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox167": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox168": {
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox169": {
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox176": {
+      "custom": {
+        "text": "Reign is a UI kit designed for new design-concious outdoor brands."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox177": {
+      "custom": {
+        "text": "All Products"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox178": {
+      "custom": {
+        "text": "SHOP"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox179": {
+      "custom": {
+        "text": "Granite"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox180": {
+      "custom": {
+        "text": "$ 149.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image56": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/helemt-3.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox181": {
+      "custom": {
+        "text": "Night"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox182": {
+      "custom": {
+        "text": "$ 149.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image57": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/helemt-2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image58": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/helemt-1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox183": {
+      "custom": {
+        "text": "$ 149.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox184": {
+      "custom": {
+        "text": "Tangerine"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image62": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/mug.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox192": {
+      "custom": {
+        "text": "$ 9.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox193": {
+      "custom": {
+        "text": "Enamel Mug"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox198": {
+      "custom": {
+        "text": "Black Cap"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox199": {
+      "custom": {
+        "text": "$ 19.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image65": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/snapback.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox200": {
+      "custom": {
+        "text": "Beanie"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox201": {
+      "custom": {
+        "text": "$ 12.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image66": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/beanie.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image78": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image77": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/magnifier.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox208": {
+      "custom": {
+        "text": "0"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image76": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/shopping-cart.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown12": {
+      "custom": {
+        "values": [
+          "Template"
+        ],
+        "selectedValue": "",
+        "displayedValues": [
+          "Template",
+          "Home 2",
+          "Shop 2",
+          "Blog ",
+          "Contact",
+          "Legal"
+        ]
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown13": {
+      "custom": {
+        "values": [
+          "Pages"
+        ],
+        "selectedValue": "",
+        "displayedValues": [
+          "Pages",
+          "Home 2",
+          "Shop 2",
+          "Blog ",
+          "Contact",
+          "Legal"
+        ]
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox209": {
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox215": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/Shop"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "Product": {
+    "headline": {
+      "callbacks": {}
+    },
+    "navbar": {
+      "callbacks": {
+        "onClick": []
+      }
+    },
+    "Flex196": {
+      "callbacks": {}
+    },
+    "Flex194": {
+      "callbacks": {}
+    },
+    "Flex193": {
+      "callbacks": {}
+    },
+    "Flex195": {
+      "callbacks": {}
+    },
+    "Item_info": {
+      "callbacks": {}
+    },
+    "Flex202": {
+      "callbacks": {}
+    },
+    "Flex201": {
+      "callbacks": {}
+    },
+    "Flex200": {
+      "callbacks": {}
+    },
+    "Flex204": {
+      "callbacks": {}
+    },
+    "TextBox210": {
+      "custom": {
+        "text": "USE THIS BAR FOR ANNOUNCEMENTS, DEALS & DISCOUNTS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image81": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image80": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/magnifier.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox211": {
+      "custom": {
+        "text": "0"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image79": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/shopping-cart.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown14": {
+      "custom": {
+        "values": [
+          "Template"
+        ],
+        "selectedValue": "",
+        "displayedValues": [
+          "Template",
+          "Home 2",
+          "Shop 2",
+          "Blog ",
+          "Contact",
+          "Legal"
+        ]
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown15": {
+      "custom": {
+        "values": [
+          "Pages"
+        ],
+        "selectedValue": "",
+        "displayedValues": [
+          "Pages",
+          "Home 2",
+          "Shop 2",
+          "Blog ",
+          "Contact",
+          "Legal"
+        ]
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox212": {
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox213": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/Shop"
+            }
+          }
+        ]
+      }
+    },
+    "Image82": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/helemt-1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox218": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus pellentesque pharetra."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox219": {
+      "custom": {
+        "text": "Rust"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox220": {
+      "custom": {
+        "text": "RGN003"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox221": {
+      "custom": {
+        "text": "$ 149.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown17": {
+      "custom": {
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "selectedValue": "",
+        "displayedValues": [
+          "Select Size",
+          "Small ",
+          "Medium",
+          "Large",
+          "XL"
+        ]
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox222": {
+      "custom": {
+        "text": "Size"
       },
       "callbacks": {
         "onClick": [

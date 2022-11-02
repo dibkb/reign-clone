@@ -88,5 +88,14 @@
   },
   "gpay-logo.svg": {
     "mime": "image/svg+xml"
+  },
+  "mug.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "snapback.jpg": {
+    "mime": "image/jpeg"
+  },
+  "beanie.jpeg": {
+    "mime": "image/jpeg"
   }
 }
