@@ -883,7 +883,14 @@ export function useTextBox184Cb() {
 export function useFlex147Cb() {
 	const onClick = useCallback(callbackFactory("Flex147", "Shop", "/Shop", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -895,7 +902,14 @@ export function useFlex147Cb() {
 export function useFlex148Cb() {
 	const onClick = useCallback(callbackFactory("Flex148", "Shop", "/Shop", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -907,7 +921,14 @@ export function useFlex148Cb() {
 export function useFlex149Cb() {
 	const onClick = useCallback(callbackFactory("Flex149", "Shop", "/Shop", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -1039,7 +1060,14 @@ export function useTextBox193Cb() {
 export function useFlex162Cb() {
 	const onClick = useCallback(callbackFactory("Flex162", "Shop", "/Shop", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -1111,7 +1139,14 @@ export function useImage65Cb() {
 export function useFlex168Cb() {
 	const onClick = useCallback(callbackFactory("Flex168", "Shop", "/Shop", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -1183,7 +1218,14 @@ export function useImage66Cb() {
 export function useFlex170Cb() {
 	const onClick = useCallback(callbackFactory("Flex170", "Shop", "/Shop", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"

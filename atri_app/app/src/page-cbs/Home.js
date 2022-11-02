@@ -312,7 +312,10 @@ export function useButton1Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/Shop"
+      }
     }
   ],
   "actions": [
@@ -536,7 +539,10 @@ export function useButton4Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/Product"
+      }
     }
   ],
   "actions": [
@@ -1748,7 +1754,10 @@ export function useButton8Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/Shop"
+      }
     }
   ],
   "actions": [
