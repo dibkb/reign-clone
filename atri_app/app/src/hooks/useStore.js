@@ -2508,7 +2508,43 @@ const desktopModeProps = {
     "Flex200": {
       "callbacks": {}
     },
-    "Flex204": {
+    "Cart": {
+      "callbacks": {}
+    },
+    "Quantity": {
+      "callbacks": {}
+    },
+    "features_container": {
+      "callbacks": {}
+    },
+    "Flex227": {
+      "callbacks": {}
+    },
+    "Flex226": {
+      "callbacks": {}
+    },
+    "Flex223": {
+      "callbacks": {}
+    },
+    "Flex224": {
+      "callbacks": {}
+    },
+    "Flex225": {
+      "callbacks": {}
+    },
+    "Common_Questions": {
+      "callbacks": {}
+    },
+    "Flex231": {
+      "callbacks": {}
+    },
+    "Flex228": {
+      "callbacks": {}
+    },
+    "Flex229": {
+      "callbacks": {}
+    },
+    "Flex230": {
       "callbacks": {}
     },
     "TextBox210": {
@@ -2711,6 +2747,18 @@ const desktopModeProps = {
         ]
       }
     },
+    "TextBox222": {
+      "custom": {
+        "text": "Size"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "Dropdown17": {
       "custom": {
         "values": [
@@ -2737,9 +2785,251 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox222": {
+    "Button15": {
       "custom": {
-        "text": "Size"
+        "text": "Add to Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox226": {
+      "custom": {
+        "text": "QTY:"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input1": {
+      "custom": {
+        "value": "1",
+        "placeholder": "1",
+        "isPasswordField": false
+      },
+      "callbacks": {}
+    },
+    "TextBox256": {
+      "custom": {
+        "text": "Outdoor Tested"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image92": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/fire.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox257": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox258": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image93": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/temt.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox259": {
+      "custom": {
+        "text": "Pro Approved"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox260": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image94": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cycle.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox261": {
+      "custom": {
+        "text": "American Made"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox262": {
+      "custom": {
+        "text": "American Made"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image95": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cycle.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox263": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox264": {
+      "custom": {
+        "text": "Pro Approved"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image96": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/temt.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox265": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox266": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image97": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/fire.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox267": {
+      "custom": {
+        "text": "Outdoor Tested"
       },
       "callbacks": {
         "onClick": [

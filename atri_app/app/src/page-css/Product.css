@@ -59,7 +59,7 @@ column-gap: 2rem;
 .p-Product.Item_info {
 display: flex;
 flex-direction: column;
-height: 93vh;
+height: 90vh;
 }
 .p-Product.Flex202 {
 display: flex;
@@ -89,11 +89,100 @@ width: 50%;
 flex-direction: column;
 max-width: 400px;
 }
-.p-Product.Flex204 {
+.p-Product.Cart {
 display: flex;
-width: 50%;
-flex-direction: column;
+width: ;
+flex-direction: row;
 max-width: ;
+align-items: baseline;
+justify-content: space-between;
+column-gap: 1rem;
+margin-top: 45px;
+}
+.p-Product.Quantity {
+display: flex;
+width: ;
+flex-direction: row;
+max-width: ;
+align-items: baseline;
+justify-content: flex-start;
+column-gap: 1rem;
+}
+.p-Product.features_container {
+display: flex;
+margin-top: ;
+align-items: center;
+justify-content: center;
+}
+.p-Product.Flex227 {
+display: flex;
+margin-top: ;
+align-items: center;
+justify-content: flex-start;
+max-width: 1200px;
+width: 100%;
+padding-left: 60px;
+padding-right: 60px;
+background-color: transparent;
+height: 420px;
+flex-direction: column;
+margin-bottom: ;
+}
+.p-Product.Flex226 {
+display: flex;
+width: 100%;
+justify-content: space-between;
+max-width: 800px;
+margin-top: 30px;
+}
+.p-Product.Flex223 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 8px;
+}
+.p-Product.Flex224 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 8px;
+}
+.p-Product.Flex225 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 8px;
+}
+.p-Product.Common_Questions {
+display: flex;
+margin-top: ;
+align-items: center;
+justify-content: center;
+}
+.p-Product.Flex231 {
+display: flex;
+width: 100%;
+justify-content: space-between;
+max-width: 800px;
+margin-top: 30px;
+}
+.p-Product.Flex228 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 8px;
+}
+.p-Product.Flex229 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 8px;
+}
+.p-Product.Flex230 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 8px;
 }
 .p-Product.TextBox210 {
 font-family: Inconsolata;
@@ -168,7 +257,7 @@ color: #434343;
 font-family: Inter;
 font-size: 1.2rem;
 font-weight: 400;
-margin-bottom: 20px;
+margin-bottom: 24px;
 width: ;
 max-width: 400px;
 }
@@ -178,7 +267,7 @@ color: #1d1d1d;
 font-family: Inter;
 font-size: 2.75rem;
 font-weight: 700;
-margin-bottom: 17px;
+margin-bottom: 24px;
 max-width: 400px;
 }
 .p-Product.TextBox220 {
@@ -194,7 +283,18 @@ color: #636363;
 font-family: Inter;
 font-size: 1rem;
 font-weight: 600;
-margin-bottom: 20px;
+margin-bottom: 24px;
+max-width: ;
+width: 100%;
+text-align: left;
+}
+.p-Product.TextBox222 {
+background-color: transparent;
+color: #383838;
+font-family: Inter;
+font-size: .875rem;
+font-weight: 500;
+margin-bottom: 12px;
 max-width: ;
 width: 100%;
 text-align: left;
@@ -215,14 +315,178 @@ border-color: #9f9f9f;
 border-radius: 4px;
 width: ;
 }
-.p-Product.TextBox222 {
+.p-Product.Button15 {
+color: #000000;
+background-color: #b4ff39;
+padding-top: 12px;
+padding-left: 15px;
+padding-bottom: 12px;
+padding-right: 15px;
+font-size: 14px;
+border-radius: 2px;
+outline: none;
+font-weight: 600;
+text-align: center;
+border-width: 1px;
+border-style: solid;
+border-color: transparent;
+cursor: pointer;
+user-select: none;
+font-family: Inter;
+max-height: ;
+max-width: ;
+outline-width: 0px;
+outline-color: transparent;
+width: 70%;
+}
+.p-Product.TextBox226 {
 background-color: transparent;
 color: #383838;
 font-family: Inter;
 font-size: .875rem;
 font-weight: 500;
-margin-bottom: 20px;
+margin-bottom: ;
 max-width: ;
-width: 100%;
+width: ;
 text-align: left;
+height: 100%;
+min-height: 100%;
+}
+.p-Product.Input1 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 6px;
+padding-left: 6px;
+padding-bottom: 6px;
+padding-right: 6px;
+color: #000000d9;
+font-size: 14px;
+background-color: #fff;
+background-image: none;
+border-width: 1px;
+border-style: solid;
+border-color: #d9d9d9;
+border-radius: 2px;
+width: 36px;
+}
+.p-Product.TextBox256 {
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+max-width: 300px;
+font-weight: 600;
+}
+.p-Product.Image92 {
+border-radius: 1px;
+border-width: 0px;
+border-style: solid;
+border-color: transparent;
+width: 120px;
+}
+.p-Product.TextBox257 {
+font-family: Inter;
+font-size: 16px;
+text-align: center;
+max-width: 300px;
+}
+.p-Product.TextBox258 {
+font-family: Inter;
+font-size: 16px;
+text-align: center;
+max-width: 300px;
+}
+.p-Product.Image93 {
+border-radius: 1px;
+border-width: 0px;
+border-style: solid;
+border-color: transparent;
+width: 120px;
+}
+.p-Product.TextBox259 {
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+max-width: 300px;
+font-weight: 500;
+}
+.p-Product.TextBox260 {
+font-family: Inter;
+font-size: 16px;
+text-align: center;
+max-width: 300px;
+}
+.p-Product.Image94 {
+border-radius: 1px;
+border-width: 0px;
+border-style: solid;
+border-color: transparent;
+width: 120px;
+}
+.p-Product.TextBox261 {
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+max-width: 300px;
+font-weight: 500;
+}
+.p-Product.TextBox262 {
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+max-width: 300px;
+font-weight: 500;
+}
+.p-Product.Image95 {
+border-radius: 1px;
+border-width: 0px;
+border-style: solid;
+border-color: transparent;
+width: 120px;
+}
+.p-Product.TextBox263 {
+font-family: Inter;
+font-size: 16px;
+text-align: center;
+max-width: 300px;
+}
+.p-Product.TextBox264 {
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+max-width: 300px;
+font-weight: 500;
+}
+.p-Product.Image96 {
+border-radius: 1px;
+border-width: 0px;
+border-style: solid;
+border-color: transparent;
+width: 120px;
+}
+.p-Product.TextBox265 {
+font-family: Inter;
+font-size: 16px;
+text-align: center;
+max-width: 300px;
+}
+.p-Product.TextBox266 {
+font-family: Inter;
+font-size: 16px;
+text-align: center;
+max-width: 300px;
+}
+.p-Product.Image97 {
+border-radius: 1px;
+border-width: 0px;
+border-style: solid;
+border-color: transparent;
+width: 120px;
+}
+.p-Product.TextBox267 {
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+max-width: 300px;
+font-weight: 600;
 }
