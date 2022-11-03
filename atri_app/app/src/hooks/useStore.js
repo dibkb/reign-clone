@@ -49,13 +49,13 @@ const desktopModeProps = {
     "Nav_elements": {
       "callbacks": {}
     },
-    "navlinks": {
-      "callbacks": {}
-    },
     "right": {
       "callbacks": {}
     },
     "cart": {
+      "callbacks": {}
+    },
+    "navlinks": {
       "callbacks": {}
     },
     "home_view1": {
@@ -130,42 +130,6 @@ const desktopModeProps = {
     "Flex47": {
       "callbacks": {}
     },
-    "images1": {
-      "callbacks": {}
-    },
-    "Flex57": {
-      "callbacks": {}
-    },
-    "Flex56": {
-      "callbacks": {}
-    },
-    "Flex59": {
-      "callbacks": {}
-    },
-    "image_2": {
-      "callbacks": {}
-    },
-    "Flex63": {
-      "callbacks": {}
-    },
-    "Flex62": {
-      "callbacks": {}
-    },
-    "Flex61": {
-      "callbacks": {}
-    },
-    "image_3": {
-      "callbacks": {}
-    },
-    "Flex67": {
-      "callbacks": {}
-    },
-    "Flex66": {
-      "callbacks": {}
-    },
-    "Flex65": {
-      "callbacks": {}
-    },
     "shop_section_container": {
       "callbacks": {}
     },
@@ -179,19 +143,46 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "text": {
-      "callbacks": {}
-    },
-    "Flex79": {
-      "callbacks": {}
-    },
-    "Flex78": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/Product"
+            }
+          }
+        ]
+      }
     },
     "Flex81": {
       "callbacks": {}
     },
     "Flex80": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/Product"
+            }
+          }
+        ]
+      }
+    },
+    "Flex344": {
       "callbacks": {}
+    },
+    "Flex343": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/Product"
+            }
+          }
+        ]
+      }
     },
     "blog_section": {
       "callbacks": {}
@@ -256,6 +247,42 @@ const desktopModeProps = {
     "online_pay": {
       "callbacks": {}
     },
+    "images1": {
+      "callbacks": {}
+    },
+    "Flex57": {
+      "callbacks": {}
+    },
+    "Flex56": {
+      "callbacks": {}
+    },
+    "Flex59": {
+      "callbacks": {}
+    },
+    "images_2": {
+      "callbacks": {}
+    },
+    "Flex336": {
+      "callbacks": {}
+    },
+    "Flex335": {
+      "callbacks": {}
+    },
+    "Flex334": {
+      "callbacks": {}
+    },
+    "images_3": {
+      "callbacks": {}
+    },
+    "Flex340": {
+      "callbacks": {}
+    },
+    "Flex339": {
+      "callbacks": {}
+    },
+    "Flex338": {
+      "callbacks": {}
+    },
     "headline_text": {
       "custom": {
         "text": "USE THIS BAR FOR ANNOUNCEMENTS, DEALS & DISCOUNTS"
@@ -272,6 +299,54 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image2": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/magnifier.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Menu1": {
+      "custom": {
+        "open": true,
+        "iconHeight": 24,
+        "iconWidth": 24
+      },
+      "callbacks": {
+        "onClick": []
+      }
+    },
+    "Image3": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/shopping-cart.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox11": {
+      "custom": {
+        "text": "0"
       },
       "callbacks": {
         "onClick": [
@@ -353,44 +428,6 @@ const desktopModeProps = {
               "type": "internal",
               "url": "/Shop"
             }
-          }
-        ]
-      }
-    },
-    "Image2": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/magnifier.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image3": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/shopping-cart.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox11": {
-      "custom": {
-        "text": "0"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
           }
         ]
       }
@@ -732,18 +769,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox40": {
-      "custom": {
-        "text": "MADE FOR FUN"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "google_rating_text": {
       "custom": {
         "text": "5/5 rating on Google"
@@ -858,189 +883,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image26": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/image-1.jpg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox51": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tristique lorem, vel hendrerit risus."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox52": {
-      "custom": {
-        "text": "Only premium materials used"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "number": {
-      "custom": {
-        "text": "01"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox59": {
-      "custom": {
-        "text": "HIGH QUALITY"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image27": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/image-2.jpeg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox62": {
-      "custom": {
-        "text": "Designed for riders by riders"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox63": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tristique lorem, vel hendrerit risus."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox60": {
-      "custom": {
-        "text": "FRESH DEIGN"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox61": {
-      "custom": {
-        "text": "02"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image28": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/image-3.jpg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox66": {
-      "custom": {
-        "text": "Made to help you last a lifetime"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox67": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tristique lorem, vel hendrerit risus."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox64": {
-      "custom": {
-        "text": "OUR GUARANTEE"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox65": {
-      "custom": {
-        "text": "03"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox68": {
       "custom": {
         "text": "Shop our helmets"
@@ -1105,43 +947,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image30": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/helemt-2.jpg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox72": {
-      "custom": {
-        "text": "$ 149.00 USD"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox73": {
-      "custom": {
-        "text": "Night"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "Image31": {
       "custom": {
         "alt": "No preview available",
@@ -1170,6 +975,43 @@ const desktopModeProps = {
     "TextBox75": {
       "custom": {
         "text": "Granite"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image147": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/helemt-2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox403": {
+      "custom": {
+        "text": "$ 149.00 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox404": {
+      "custom": {
+        "text": "Night"
       },
       "callbacks": {
         "onClick": [
@@ -1627,6 +1469,189 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/gpay-logo.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image26": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/image-1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox51": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tristique lorem, vel hendrerit risus."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox52": {
+      "custom": {
+        "text": "Only premium materials used"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "number": {
+      "custom": {
+        "text": "01"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox59": {
+      "custom": {
+        "text": "HIGH QUALITY"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image144": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/image-2.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox395": {
+      "custom": {
+        "text": "Designed for riders by riders"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox396": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tristique lorem, vel hendrerit risus."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox393": {
+      "custom": {
+        "text": "FRESH DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox394": {
+      "custom": {
+        "text": "02"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image145": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/image-1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox399": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tristique lorem, vel hendrerit risus."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox400": {
+      "custom": {
+        "text": "Made to help you last a lifetime"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox397": {
+      "custom": {
+        "text": "03"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox398": {
+      "custom": {
+        "text": "OUR GUARANTEE"
       },
       "callbacks": {
         "onClick": [
