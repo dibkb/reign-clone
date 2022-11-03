@@ -16,6 +16,6 @@
   "publicUrlAssetMap": {
     "/app-assets": "..\\assets"
   },
-  "organizationName": "<Atri Labs>",
-  "projectName": "</reign-clone>"
+  "organizationName": "Atri Labs",
+  "projectName": "reign-clone"
 }
