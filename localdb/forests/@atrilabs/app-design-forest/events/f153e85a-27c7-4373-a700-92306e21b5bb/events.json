@@ -29922,5 +29922,278 @@
       }
     },
     "id": "de0f7510-863f-4966-b589-fec109214184"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "alignItems": "center"
+            }
+          }
+        }
+      }
+    },
+    "id": "28fbdd79-1a1f-4dad-a9fc-ef11e626639a"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "textAlign": "center"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "fontSize": "1.rem"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "fontSize": "1rem"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518",
+    "state": {
+      "property": {
+        "styles": {
+          "backgroundColor": "transparent",
+          "color": "#ffffff",
+          "fontFamily": "Inter",
+          "fontSize": "1.2rem",
+          "fontWeight": 400,
+          "marginBottom": "20px",
+          "width": "",
+          "maxWidth": "400px"
+        }
+      },
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "textAlign": "center",
+              "fontSize": "1.rem"
+            }
+          }
+        }
+      },
+      "parent": {
+        "id": "c49d063d-baa4-4948-99c1-1a75525519c3",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518",
+    "state": {
+      "property": {
+        "styles": {
+          "backgroundColor": "transparent",
+          "color": "#ffffff",
+          "fontFamily": "Inter",
+          "fontSize": "1.2rem",
+          "fontWeight": 400,
+          "marginBottom": "20px",
+          "width": "",
+          "maxWidth": "400px"
+        }
+      },
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "textAlign": "center"
+            }
+          }
+        }
+      },
+      "parent": {
+        "id": "c49d063d-baa4-4948-99c1-1a75525519c3",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "fontSize": "1.rem"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "fontSize": "1rem"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "2px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "24px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "2px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": ""
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "6px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "36px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "336px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "lineHeight": "36px"
+            }
+          }
+        }
+      }
+    },
+    "id": "6e3a6175-c4c1-43dc-b788-92b62978e518"
   }
 ]
