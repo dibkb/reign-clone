@@ -1529,21 +1529,6 @@ width: ;
 width: 100%;
 margin-bottom: 60px;
 	}
-	.p-Home.items_container.bpt {
-flex-wrap: wrap;
-justify-content: space-between;
-padding-left: 60px;
-padding-right: 60px;
-	}
-	.p-Home.item_1.bpt {
-width: 45%;
-	}
-	.p-Home.Flex81.bpt {
-width: 45%;
-	}
-	.p-Home.Flex344.bpt {
-width: 45%;
-	}
 	.p-Home.blogs.bpt {
 flex-direction: column;
 column-gap: ;
@@ -1618,15 +1603,6 @@ max-width: ;
 	.p-Home.Button8.bpt {
 margin-top: 29px;
 	}
-	.p-Home.Image29.bpt {
-width: 100%;
-	}
-	.p-Home.Image31.bpt {
-width: 100%;
-	}
-	.p-Home.Image147.bpt {
-width: 100%;
-	}
 	.p-Home.Button9.bpt {
 margin-top: 30px;
 	}
@@ -1684,6 +1660,21 @@ justify-content: flex-end;
 align-items: flex-start;
 flex-direction: row;
 	}
+	.p-Home.items_container.bpt {
+flex-wrap: wrap;
+justify-content: space-between;
+padding-left: 60px;
+padding-right: 60px;
+	}
+	.p-Home.item_1.bpt {
+width: 45%;
+	}
+	.p-Home.Flex81.bpt {
+width: 45%;
+	}
+	.p-Home.Flex344.bpt {
+width: 45%;
+	}
 	.p-Home.images1.bpt {
 flex-direction: row;
 align-items: flex-start;
@@ -1712,6 +1703,15 @@ height: auto;
 	}
 	.p-Home.Image18.bpt {
 max-height: 500px;
+	}
+	.p-Home.Image29.bpt {
+width: 100%;
+	}
+	.p-Home.Image31.bpt {
+width: 100%;
+	}
+	.p-Home.Image147.bpt {
+width: 100%;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -1766,6 +1766,28 @@ margin-bottom: 0px;
 	}
 	.p-Home.shop_section_container.bpt {
 overflow: hidden;
+	}
+	.p-Home.items_container.bpt {
+flex-direction: column;
+	}
+	.p-Home.item_1.bpt {
+width: 100%;
+	}
+	.p-Home.text.bpt {
+align-items: center;
+	}
+	.p-Home.Flex81.bpt {
+width: 100%;
+	}
+	.p-Home.Flex80.bpt {
+align-items: center;
+	}
+	.p-Home.Flex344.bpt {
+width: 100%;
+align-items: center;
+	}
+	.p-Home.Flex343.bpt {
+align-items: center;
 	}
 	.p-Home.blog_section.bpt {
 overflow: hidden;
@@ -1847,6 +1869,16 @@ padding-right: 14px;
 font-size: 14px;
 padding-left: 14px;
 padding-bottom: 14px;
+	}
+	.p-Home.Image29.bpt {
+max-height: ;
+max-width: 300px;
+	}
+	.p-Home.Image31.bpt {
+max-width: 300px;
+	}
+	.p-Home.Image147.bpt {
+max-width: 300px;
 	}
 	.p-Home.Image44.bpt {
 width: ;
